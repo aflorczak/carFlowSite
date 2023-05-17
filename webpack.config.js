@@ -24,6 +24,11 @@ Encore
     .addEntry('workerReactApplication', './assets/workerReactApplication/app.js')
     .addEntry('customerReactApplication', './assets/customerReactApplication/app.js')
 
+    .addEntry('organizationBase', './assets/organizationModule/app.js')
+    .addEntry('organizationHomePage', './assets/organizationModule/page/home/app.js')
+    .addEntry('organizationBranchPage', './assets/organizationModule/page/branch/app.js')
+    .addEntry('organizationContactPage', './assets/organizationModule/page/contact/app.js')
+
     // When enabled, Webpack "splits" your files into smaller pieces for greater optimization.
     .splitEntryChunks()
 

@@ -1,0 +1,17 @@
+{% extends 'view/organizationModule/base.html.twig' %}
+
+{% block title %}Organization | CarFlow.Site{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('organizationHomePage') }}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('organizationHomePage') }}
+{% endblock %}
+
+{% block body %}
+    Home Organization
+{% endblock %}

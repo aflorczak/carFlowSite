@@ -1,0 +1,17 @@
+{% extends 'view/organizationModule/base.html.twig' %}
+
+{% block title %}Blog - Organization | CarFlow.Site{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('organizationContactPage') }}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('organizationContactPage') }}
+{% endblock %}
+
+{% block body %}
+    Contact Organization
+{% endblock %}
