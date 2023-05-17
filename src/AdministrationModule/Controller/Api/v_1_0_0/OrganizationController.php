@@ -10,7 +10,7 @@ class OrganizationController extends AbstractController
 {
     #[Route(
         '',
-        name: 'app_administrationModule_controller_api_v-1-0-0_organization_getOrganizations',
+        name: 'app_administrationModule_controller_api_v-1-0-0_organizationController_getOrganizations',
         methods: ['GET']
     )]
     public function getOrganizations(): Response

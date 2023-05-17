@@ -11,7 +11,7 @@ class CarsController extends AbstractController
 {
     #[Route(
         '',
-        name: 'app_customerModule_controller_api_v-1-0-0_customerModuleApi_v-1-0-0_carsController_getCars',
+        name: 'app_customerModule_controller_api_v-1-0-0_carsController_getCars',
         methods: ['GET']
     )]
     public function getCars(): Response
