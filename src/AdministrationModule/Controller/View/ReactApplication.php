@@ -16,6 +16,6 @@ class ReactApplication extends AbstractController
     )]
     public function getApplication(): Response
     {
-        return $this->render('administration/reactApplication/index.html.twig', []);
+        return $this->render('view/administration/reactApplication/index.html.twig', []);
     }
 }
